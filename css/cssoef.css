@@ -1,0 +1,57 @@
+#divFeedback {
+    margin-top: 15px;
+}
+
+label {
+    width: 80px;
+    display: inline-block;
+}
+
+span {
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-green {
+    border-color: var(--green);
+    background-color: var(--lightgreen);
+    color: var(--black);
+}
+  
+.btn-green:focus {
+    border-color: var(--green);
+}
+  
+.btn-green:hover {
+    background-color: greenyellow;
+}
+
+.btn-blue {
+    border-color: var(--blue);
+    background-color: lightblue;
+    color: var(--black);
+}
+  
+.btn-blue:focus {
+    border-color: var(--blue);
+}
+  
+.btn-blue:hover {
+    background-color: darkslateblue;
+}
+
+section{
+    background-color: cadetblue;
+    width: 500px;
+    margin:0 auto;
+    padding : 10px;
+    border : 2px solid darkslategray;
+    border-radius : 10px;    
+}
+
+.invoer{
+    width: 300px ;
+    margin: 10px auto ;
+    padding : 10px;  
+}
